@@ -36,13 +36,20 @@ nav{
     justify-content:space-around ;
 }
 
-nav h1{
+.logo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
     font-size: 34px;
     color: #fff;
     width: 50%;
 }
 
-ul{
+nav ul{
     width: 50%;
     display: flex;
     align-items: center;
@@ -50,11 +57,121 @@ ul{
     list-style-type: none;
 }
 
-li{
+nav ul li{
     padding-left: 8%;
 }
 
-li a{
+nav ul li a{
     text-decoration: none;
     color: #fff;
+}
+
+nav ul select{
+    background: #8a5115;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+main{
+    padding: 2% 4%;
+}
+
+#luxury_flex {
+    width: 100%;
+    border-radius: 15px;
+}
+
+section{
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 14px 16px;
+    border-radius: 15px;
+}
+
+.hero h1{
+    color: #8a5115;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.hero p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+.sample_products{
+    border-radius: 15px 15px 0 0;
+}
+
+.sample_products h1{
+    color: #8a5115;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sample_products .shop_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sample_products .shop_cards .cards{
+    background-color: #8a5115;
+    padding: 1% 1.5%;
+    color: #fff;
+    border-radius: 15px;
+    width: 250px;
+    height: 280px;
+}
+
+.sample_products .shop_cards .cards h1{
+    color: #fff;
+}
+
+#card_img1, #card_img2, #card_img3, #card_img4{
+    width: 100%;
+    border-radius: 15px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222;
+    padding: 3% 2%;
+    color: #222;
+}
+
+footer div{
+    background-color: #fff;
+    padding: 1% 2%;
+    color: #222;
+    border-radius: 10px;
+    width: auto;
+    height: 150px;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+footer div h1{
+    margin: auto;
+    color: #8a5115 ;
+}
+
+footer div ul{
+    list-style-type: none;
+    line-height: 1;
+}
+
+footer div ul li{
+    margin-top: 5px;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    color: #222;
 }

@@ -11,7 +11,7 @@ namespace Project_Luxury
 {
 
 
-    public partial class index
+    public partial class admin
     {
 
         /// <summary>
@@ -42,39 +42,21 @@ namespace Project_Luxury
         protected global::System.Web.UI.HtmlControls.HtmlSelect gender_type;
 
         /// <summary>
-        /// luxury_flex control.
+        /// product_wear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image luxury_flex;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect product_wear;
 
         /// <summary>
-        /// card_img1 control.
+        /// product_gender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image card_img1;
-
-        /// <summary>
-        /// card_img2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image card_img2;
-
-        /// <summary>
-        /// card_img3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image card_img3;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect product_gender;
     }
 }
